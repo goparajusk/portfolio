@@ -1,0 +1,129 @@
+/*.pic_logos{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+   
+}
+#image-container{
+    margin: 10px;
+    
+}*/
+.pic_logos {
+    display: -moz-flex;
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+    width: 100%;
+    margin: 0 0 3em 0;
+    padding: 0;
+    list-style: none;
+    cursor: default;
+}
+
+    .pic_logos li {
+        -moz-flex: 1;
+        -webkit-flex: 1;
+        -ms-flex: 1;
+        flex: 1;
+        padding: 1.5em;
+        color: #ffffff;
+        text-align: center;
+    }
+    #proficiency{
+        text-align: center;
+       align-items: center;
+    }
+
+        .pic_logos li.image-container1 {
+            background-color: #efa8b0;
+        }
+
+        .pic_logos li.image-container2 {
+            background-color: #c79cc8;
+        }
+
+        .pic_logos li.image-container3 {
+            background-color: #a89cc8;
+        }
+
+        .pic_logos li.image-container4 {
+            background-color: #9bb2e1;
+        }
+
+        .pic_logos li.image-container5 {
+            background-color: #8cc9f0;
+        }
+        
+        
+
+        .pic_logos li strong, .pic_logos li b {
+            display: block;
+            font-size: 2em;
+            line-height: 1.1;
+            color: inherit !important;
+            font-weight: 300;
+            letter-spacing: -0.025em;
+        }
+
+        .pic_logos li:first-child {
+            border-top-left-radius: 8px;
+            border-bottom-left-radius: 8px;
+        }
+
+        .pic_logos li:last-child {
+            border-top-right-radius: 8px;
+            border-bottom-right-radius: 8px;
+        }
+
+        .pic_logos li .icon {
+            display: inline-block;
+        }
+
+            .pic_logos li .icon:before {
+                font-size: 2.75rem;
+                line-height: 1.3;
+            }
+
+    @media screen and (max-width: 980px) {
+
+        .pic_logos li strong, .pic_logos li b {
+            font-size: 1.5em;
+            
+        }
+
+    }
+
+    @media screen and (max-width: 736px) {
+
+        .pic_logos {
+            display: block;
+            width: 20em;
+            max-width: 100%;
+            margin: 0 auto 2em auto;
+        }
+
+            .pic_logos li:first-child {
+                border-bottom-left-radius: 0;
+                border-top-right-radius: 8px;
+            }
+
+            .pic_logos li:last-child {
+                border-top-right-radius: 0;
+                border-bottom-left-radius: 8px;
+            }
+
+            .pic_logos li .icon:before {
+                font-size: 3.75rem;
+            }
+
+            .pic_logos li strong, .pic_logos li b {
+                font-size: 2.5em;
+                
+            }
+
+    }
+    .content #work-project{
+		text-align: start;
+		
+	}
